@@ -12,10 +12,12 @@ To deploy the Azure resources required for this lab, you will need:
 
     `git clone https://github.com/DataSnowman/amlworkshop.git`
 
+`Note:` If you don't have git installed on your device we will be able to git clone this repository directly into the Notebook VM 
 
-## Using Azure Machine Learning service Notebook VMs
 
-If you are interested in this scenario [start here](https://github.com/DataSnowman/amlworkshop/tree/master/AMLnotebookVMs)
+## Setting up the Azure Machine Learning service Notebook VM
+
+[Start here](https://github.com/DataSnowman/amlworkshop/tree/master/AMLnotebookVMs)
 
 ![Data Science with AML Notebook VMs 1](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookVMs1.png)
 
