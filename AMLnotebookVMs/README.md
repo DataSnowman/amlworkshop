@@ -46,42 +46,7 @@ After a few minutes the Status will change to `Running`.  Now you can click on t
 
 ![amlNotebookVMsConsole3](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookVMsConsole3.png)
 
-This will open the Jupyter Notebook VM.  Navigate to your user folder. Click on Upload and navigate to the `Bike Buyer Model.ipynb` file that you cloned earlier.  Find in MLonBigData\BikeBuyer\OriginalDataScientistWork 
-
-![amlNotebookVMsUpload](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookVMsUpload.png)
-
-Click on the blue Upload button.  Then click on the `Bike Buyer Model.ipynb` notebook to open it.  
-
-![amlNotebookVMsUpload2](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookVMsUpload2.png)
-
-The notebook should look like this.
-
-![bikeBuyerModelipynb.png](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/bikeBuyerModelipynb.png)
-
-Create a new folder by clicking on New>Folder
-
-![amlNotebookNewFolder](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookNewFolder.png)
-
-This creates an Untitled Folder.  Click in the box and click Rename.  Rename the folder `data`
-
-![amlNotebookRenameFolder](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookRenameFolder.png)
-
-Open the data folder and click the Upload button to navigate to the `data-scientist-model.csv` file which should be located in the path MLonBigData\BikeBuyer\OriginalDataScientistWork\data in your cloned GitHub repo
-
-![amlNotebookUploadData](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookUploadData.png)
-
-Click on the blue Upload button. 
-![amlNotebookUploadDataBlue](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookUploadDataBlue.png)
-
-Navigate up one level in Jupyter and then click on the `Bike Buyer Model.ipynb` notebook to open it again.  Click on the Cell menu and choose `Run All` 
-
-![amlNotebookRunAll](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookRunAll.png)
-
-`Note that you can also upload the file using the terminal (vs the GUI upload above) in Juypter and a command like this`
-
-```sh
-wget https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/BikeBuyer/OriginalDataScientistWork/data/data-scientist-model.csv  -o /data/data-scientist-model.csv 
-```
+This will open the Jupyter Notebook VM.  Navigate to your user folder. 
 
 ## Stop the Notebook VM
 
