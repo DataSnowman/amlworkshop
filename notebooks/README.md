@@ -1,18 +1,19 @@
-# Azure Machine Learning Service Workshop
+# Running the MNIST Jupyter Notebooks
 
-## Prerequisites
+## MNIST Machine Learning Example
 
-To deploy the Azure resources required for this lab, you will need:
+Navigate to the `<username>/amlworkshop/notebooks/MNIST/scikit-learn` directory
 
-1. An [Azure account](https://portal.azure.com)
-   
-   `Note:` If you don't have an account you can create your free Azure account [here](https://azure.microsoft.com/en-us/free/)
+![scikit-learnNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/scikit-learnNotebooks.png)
 
-2. Clone this GitHub repository using Git and the following commands: 
 
-    `git clone https://github.com/DataSnowman/amlworkshop.git`
 
-`Note:` If you don't have git installed on your device we will be able to git clone this repository directly into the Notebook VM 
+## MNIST Deep Learning Example
+
+Navigate to the `<username>/amlworkshop/notebooks/MNIST/train-hyperparameter-tune-deploy-with-keras` directory
+
+![dlNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/dlNotebooks.png.png)
+
 
 
 ## Setting up the Azure Machine Learning service Notebook VM
