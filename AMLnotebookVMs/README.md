@@ -10,7 +10,7 @@
 
 ## Create an Azure Machine Learning service workspace in an Azure Resource Group using the Azure Portal
 
-`Note if you already have an Azure Machine Learning service workspace that you created in earlier you can just use it (no need to create another)`
+`Note if you already have an Azure Machine Learning service workspace that you created earlier you can just use it (no need to create another)`
 
 Search for `Machine Learning service workspace` in the Azure Portal
 
