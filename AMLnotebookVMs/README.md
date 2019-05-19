@@ -46,7 +46,32 @@ After a few minutes the Status will change to `Running`.  Now you can click on t
 
 ![amlNotebookVMsConsole3](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookVMsConsole3.png)
 
-This will open the Jupyter Notebook VM.  Navigate to your user folder. 
+This will open the Jupyter Notebook VM.  Navigate to your user folder.  My user folder for example is `darsch`
+
+To open up a Terminal click on `New` > `Terminal`
+
+![newTerminal](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/newTerminal.png)
+
+type `ls` to list your user directory
+type `cd userName` to change to your user directory (mine was `cd darsch`)
+type `ls` to list the contents of your user directory
+type `git clone https://github.com/DataSnowman/amlworkshop.git` to clone the GitHub repository
+
+![terminalGitClone](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/terminalGitClone.png)
+
+As above you can Clone this GitHub repository using the following commands: 
+
+    `git clone https://github.com/DataSnowman/amlworkshop.git`
+
+You might want to make a new directory prior to cloning (like creating a `repos` directory using `mkdir repos`)
+
+Go back to you Jupyter Notebook Files and navigate to the `amlworkshop` directory
+
+![amlworkshopDir](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlworkshopDir.png)
+
+## Running the MNIST notebooks in the Azure Machine Learning service Notebook VM
+
+[Start here](https://github.com/DataSnowman/amlworkshop/tree/master/notebooks)
 
 ## Stop the Notebook VM
 
