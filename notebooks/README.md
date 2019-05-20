@@ -2,6 +2,8 @@
 
 ## MNIST Machine Learning Example
 
+### Tutorial #1: Train an image classification model with Azure Machine Learning
+
 Navigate to the `<username>/amlworkshop/notebooks/MNIST/scikit-learn` directory
 
 ![scikit-learnNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/scikit-learnNotebooks.png)
@@ -42,7 +44,44 @@ If you issues with the Create an estimator cell you might need to define the com
 
 ![createAnEstimator](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/createAnEstimator.png)
 
+It could take 10 minutes or so for the model to run
 
+![runTime](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/runTime.png)
+
+The last cell should register the model
+
+![registerModel](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/registerModel.png)
+
+This is where to find the model in the Assets in the AML service workspace in the Azure Portal
+
+![model](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/model.png)
+
+
+### Tutorial #2: Deploy an image classification model in Azure Container Instance (ACI)
+
+Feel free to skip the first cell if you completed the Tutorial #1 training tutorial 
+
+Run each of the notebook cells individually.
+
+It takes several minutes to deploy in an Azure Container Instance (ACI).  Don't run the last cell until the end after you have looked at the Images and Deployments.
+
+![aci](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/aci.png)
+
+Once deployed the ACI should show up as an Asset in Images
+
+![images](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/images.png)
+
+It should also show up in Deployments
+
+![deployments](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/deployments.png)
+
+Once you are finished looking at the notebook please run the last cell to delete the ACI deployment (which is the part that costs to keep running)
+
+`service.delete()`
+
+![cleanupResources](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/cleanupResources.png)
+
+Great Job.  Now you can run MNIST using Deep Learning
 
 ## MNIST Deep Learning Example
 
