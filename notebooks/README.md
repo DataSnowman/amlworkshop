@@ -6,6 +6,42 @@ Navigate to the `<username>/amlworkshop/notebooks/MNIST/scikit-learn` directory
 
 ![scikit-learnNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/scikit-learnNotebooks.png)
 
+Open up `img-classification-part1-training.ipynb`
+
+Run the `Import packages` and `Connect to workspace` cells
+
+![connectToWorkspace](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/connectToWorkspace.png)
+
+Click on `https://microsoft.com/devicelogin` in the notebook and enter the code in the browser
+
+![enterCode](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/enterCode.png)
+
+Pick the account you want to login with
+
+![pickAnAccount](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/pickAnAccount.png)
+
+You should have now authenticated successfully back in the notebook
+
+![authentication](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/authentication.png)
+
+Run the next to cells to Create and Experiment and Azure Machine Learning Compute
+
+![createExpAndCompute](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/createExpAndCompute.png)
+
+Once you run these cells you should have Experiment and Compute Assets created in the AML server workspace
+
+![experiment](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/experiment.png)
+
+![compute](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/compute.png)
+
+Now you can try to run all of the cells remaining by selecting the cell below `Download the MNIST dataset` and clicking on Cell and choosing `Run All Below`
+
+![runAllBelow](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/runAllBelow.png)
+
+If you issues with the Create an estimator cell you might need to define the compute target to one of your compute assets like `compute_target='default-compute',` vs `compute_target=compute_target`,
+
+![createAnEstimator](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/createAnEstimator.png)
+
 
 
 ## MNIST Deep Learning Example
