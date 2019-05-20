@@ -149,9 +149,29 @@ It will download the Model into a model directory in Jupyter
 
 ![modelJupyter](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/modelJupyter.png)
 
-the Model Assets in AML service workspac
+The Hyperparameter Tuning is interesting
 
+![hyperparameterTuning](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/hyperparameterTuning.png)
 
+![hyperparameterTuning2](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/hyperparameterTuning2.png)
+
+![hyperparameterTuning3](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/hyperparameterTuning3.png)
+
+Deploy the model to ACI
+
+![acitf.png](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/acitf.png)
+
+Once you are finished looking at the notebook please run the last cell to delete the ACI deployment (which is the part that costs to keep running)
+
+`service.delete()`
+
+![cleanupResources](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/cleanupResources.png)
+
+Once you run the command the Deployments should showup blank since the deployment was deleted
+
+![deleteDeployment](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/deleteDeployment.png)
+
+Great Job, more resources below.
 
 ## More Learning Opportunities using the Azure Machine Learning service
 
