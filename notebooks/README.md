@@ -123,9 +123,31 @@ Navigate to the `<username>/amlworkshop/notebooks/MNIST/train-hyperparameter-tun
 
 ![dlNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/dlNotebooks.png)
 
-## Add more here when I get my GPU allocation
+Open up `train-hyperparameter-tune-deploy-with-keras.ipynb`
 
+Run all of the cells individually
 
+The `Monitor the Run` cell will update as the job progresses with phases like queued, preparing, running
+
+![queued](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/queued.png)
+
+![preparing](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/preparing.png)
+
+![running](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/running.png)
+
+And eventually complete
+
+![complete](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/complete.png)
+
+When you run the `Download the saved model` cell 
+
+![downloadModel](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/downloadModel.png)
+
+It will download the Model into a model directory in Jupyter
+
+![modelJupyter](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/modelJupyter.png)
+
+the Model Assets in AML service workspac
 
 
 
