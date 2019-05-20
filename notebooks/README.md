@@ -91,6 +91,8 @@ Great Job.  Now you can run MNIST using Deep Learning
 
 Check out your [Azure Machine Learning Compute quota](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-manage-quotas#find-your-quotas) 
 
+![usageQuotas](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/usageQuotas.png)
+
 Create Azure ML Compute
 
 `gpucluster` STANDARD_NC6, 0 to 1 nodes
@@ -105,7 +107,7 @@ Compute type: `Machine Learning Compute`
 
 Region: `Southeast Asia` or other region appropriate for you where you have NC series resources
 
-Virtual machine size: `Standard_NC6` or `Standard_NC6s_v2` or `Standard_NC6s_v3`
+Virtual machine size: `Standard_NC6`
 
 Virtual machine priority: `Dedicated`
 
@@ -119,7 +121,7 @@ Click `Create`
 
 ![gpuCompute](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/gpuCompute.png)
 
-Navigate to the `<username>/amlworkshop/notebooks/MNIST/train-hyperparameter-tune-deploy-with-keras` directory
+Navigate to the `<username>/amlworkshop/notebooks/MNIST/train-hyperparameter-tune-deploy-with-tensorflow` directory
 
 ![dlNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/dlNotebooks.png)
 
