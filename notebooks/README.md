@@ -100,7 +100,7 @@ Navigate to to Compute Assets in the AML service Workspace in the Azure Portal. 
 Computer name: `gpucluster`
 Compute type: `Machine Learning Compute`
 Region: `Southeast Asia` or other region appropriate for you where you have NC series resources
-Virtual machine size: `Standard_NC6s_v3` or `Standard_NC6s_v2` or `Standard_NC6`
+Virtual machine size: `Standard_NC6` or `Standard_NC6s_v2` or `Standard_NC6s_v3` 
 Virtual machine priority: `Dedicated`
 Minimum number of nodes: `0`
 Maximum number of nodes: `1`
