@@ -89,6 +89,8 @@ Great Job.  Now you can run MNIST using Deep Learning
 
 ## MNIST Deep Learning Example
 
+Check out your [Azure Machine Learning Compute quota](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-manage-quotas#find-your-quotas) 
+
 Create Azure ML Compute
 
 `gpucluster` STANDARD_NC6, 0 to 1 nodes
@@ -98,12 +100,19 @@ Navigate to to Compute Assets in the AML service Workspace in the Azure Portal. 
 ![addCompute](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/addCompute.png)
 
 Computer name: `gpucluster`
+
 Compute type: `Machine Learning Compute`
+
 Region: `Southeast Asia` or other region appropriate for you where you have NC series resources
-Virtual machine size: `Standard_NC6` or `Standard_NC6s_v2` or `Standard_NC6s_v3` 
+
+Virtual machine size: `Standard_NC6` or `Standard_NC6s_v2` or `Standard_NC6s_v3`
+
 Virtual machine priority: `Dedicated`
+
 Minimum number of nodes: `0`
+
 Maximum number of nodes: `1`
+
 Idle seconds before scale down: `120`
 
 Click `Create`

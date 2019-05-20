@@ -53,8 +53,11 @@ To open up a Terminal click on `New` > `Terminal`
 ![newTerminal](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/newTerminal.png)
 
 type `ls` to list your user directory
+
 type `cd userName` to change to your user directory (mine was `cd darsch`)
+
 type `ls` to list the contents of your user directory
+
 type `git clone https://github.com/DataSnowman/amlworkshop.git` to clone the GitHub repository
 
 ![terminalGitClone](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/terminalGitClone.png)
