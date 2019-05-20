@@ -125,7 +125,7 @@ Navigate to the `<username>/amlworkshop/notebooks/MNIST/train-hyperparameter-tun
 
 ![dlNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/dlNotebooks.png)
 
-Open up `train-hyperparameter-tune-deploy-with-keras.ipynb`
+Open up `train-hyperparameter-tune-deploy-with-tensorflow.ipynb`
 
 Run all of the cells individually
 
