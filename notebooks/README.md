@@ -81,13 +81,42 @@ Once you are finished looking at the notebook please run the last cell to delete
 
 ![cleanupResources](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/cleanupResources.png)
 
+Once you run the command the Deployments should showup blank since the deployment was deleted
+
+![deleteDeployment](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/deleteDeployment.png)
+
 Great Job.  Now you can run MNIST using Deep Learning
 
 ## MNIST Deep Learning Example
 
+Create Azure ML Compute
+
+`gpucluster` STANDARD_NC6, 0 to 1 nodes
+
+Navigate to to Compute Assets in the AML service Workspace in the Azure Portal.  Click on `Add Compute`
+
+![addCompute](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/addCompute.png)
+
+Computer name: `gpucluster`
+Compute type: `Machine Learning Compute`
+Region: `Southeast Asia` or other region appropriate for you where you have NC series resources
+Virtual machine size: `Standard_NC6s_v3` or `Standard_NC6s_v2` or `Standard_NC6`
+Virtual machine priority: `Dedicated`
+Minimum number of nodes: `0`
+Maximum number of nodes: `1`
+Idle seconds before scale down: `120`
+
+Click `Create`
+
+![gpuCompute](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/gpuCompute.png)
+
 Navigate to the `<username>/amlworkshop/notebooks/MNIST/train-hyperparameter-tune-deploy-with-keras` directory
 
 ![dlNotebooks](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/dlNotebooks.png)
+
+## Add more here when I get my GPU allocation
+
+
 
 
 

@@ -71,7 +71,9 @@ Go back to you Jupyter Notebook Files and navigate to the `amlworkshop` director
 
 ## Running the MNIST notebooks in the Azure Machine Learning service Notebook VM
 
-[Start here](https://github.com/DataSnowman/amlworkshop/tree/master/notebooks)
+[Deep Learning start here](https://github.com/DataSnowman/amlworkshop/tree/master/notebooks#mnist-deep-learning-example)
+
+[Machine Learning start here](https://github.com/DataSnowman/amlworkshop/tree/master/notebooks#mnist-machine-learning-example)
 
 ## Stop the Notebook VM
 
